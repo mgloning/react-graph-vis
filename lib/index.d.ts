@@ -1,8 +1,8 @@
 declare module "react-graph-vis" {
-    import { Network, NetworkEvents, Options, Node, Edge, DataSet, Data } from "vis";
+    import { Graph, Network, NetworkEvents, Options, Node, Edge, DataSet, Data } from "vis";
     import { Component } from "react";
 
-    export { Network, NetworkEvents, Options, Node, Edge, DataSet, Data } from "vis";
+    export { Graph, Network, NetworkEvents, Options, Node, Edge, DataSet, Data } from "vis";
 
     export type GraphEvents = {
         [event in NetworkEvents]?: (params?: any) => void;
